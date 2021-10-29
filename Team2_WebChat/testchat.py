@@ -9,7 +9,7 @@ from os import path
 import sys
 
 
-fifoname="skonChat"  # Unique name for fifos
+fifoname="team2Chat"  # Unique name for fifos
 sendFifoFile = "/home/fifo/"+fifoname+"_sendFifo"
 getFifoFile = "/home/fifo/"+fifoname+"_getFifo"
 
