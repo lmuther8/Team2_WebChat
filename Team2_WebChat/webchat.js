@@ -55,7 +55,7 @@ function sendText() {
   $.ajax(
     {
     type: "get",
-    url: "/cgi-bin/team2_webchat.py?message=" + message + "&id="+id,
+    url: "/cgi-bin/muther1_webchat.py?message=" + message + "&id="+id,
     dataType: "text",
     success:  processResults,
     error: function(request, ajaxOptions, thrownError)
