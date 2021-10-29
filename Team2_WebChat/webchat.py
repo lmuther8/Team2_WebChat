@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-# nameclient.py - Program to receive web name lookup command
-# This CGI program used the python nameserver to lookup names
-# And retuen result to web page
-# James Skon, 2019
+# James Skon, 2019, Adapted by Alana, Jack, Luke, and Ulysses 2021
 #!/usr/bin/env python
 import os
 from os import path
