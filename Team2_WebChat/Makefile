@@ -10,7 +10,7 @@ PutCGI:
 	cp webchat.py /usr/lib/cgi-bin/$(user)_webchat.py
 
 	echo "Current contents of your cgi-bin directory: "
-	ls -l /usr/lib/cgi-bin/
+	find /usr/lib/cgi-bin/ -type f -mmin -5 -ls
 
 PutHTML:
 	cp webchat.html /var/www/html/class/softdev/$(user)/webchat/
