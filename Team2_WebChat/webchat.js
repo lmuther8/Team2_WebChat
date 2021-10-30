@@ -58,7 +58,8 @@ function userLogin(){
 }
   return username
 
-userLogin()
+var username
+username = userLogin()
 
   message=inText.replace("","+");
   $.ajax(
