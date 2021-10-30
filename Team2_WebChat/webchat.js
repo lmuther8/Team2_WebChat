@@ -58,6 +58,8 @@ function userLogin(){
 }
   return username
 
+userLogin()
+
   message=inText.replace("","+");
   $.ajax(
     {
