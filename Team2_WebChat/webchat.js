@@ -51,16 +51,6 @@ function sendText() {
   // force to bottom
   updateScroll();
 
-function userLogin(){
-  var username = ""
-  while username==""
-    username=prompt("Please enter your username:");
-}
-  return username
-
-var username
-username = userLogin()
-
   message=inText.replace("","+");
   $.ajax(
     {
