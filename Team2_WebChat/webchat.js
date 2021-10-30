@@ -96,4 +96,5 @@ function processResults(data) {
   // add to the bottom of the chat box
   console.log("got:"+data);
   $('#chatBox').append(data);
+  setTimeout(1000);
 }
