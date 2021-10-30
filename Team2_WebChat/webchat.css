@@ -24,3 +24,12 @@ h2, h3, p {
     font-size: 82%;
     overflow:scroll;
 }
+
+#userList {
+  background-color: #d0dec4;
+    height: 100px;
+    width: 400px;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 82%;
+    overflow:scroll;
+}
