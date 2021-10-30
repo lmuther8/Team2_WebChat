@@ -51,6 +51,13 @@ function sendText() {
   // force to bottom
   updateScroll();
 
+function userLogin(){
+  var username = ""
+  while username==""
+    username=prompt("Please enter your username:");
+}
+  return username
+
   message=inText.replace("","+");
   $.ajax(
     {
@@ -65,20 +72,20 @@ function sendText() {
   });
 }
 
-
-<p>Click on the button below. The input field will tell you when two, four, and six seconds have passed.</p>
-
-<button onclick="timedText()">Display timed text</button>
-<input type="text" id="txt">
-
-<script>
-function timedText() {
-  var x = document.getElementById("txt");
-  setTimeout(function(){ x.value="2 seconds" }, 2000);
-  setTimeout(function(){ x.value="4 seconds" }, 4000);
-  setTimeout(function(){ x.value="6 seconds" }, 6000);
-}
-</script>
+//
+// <p>Click on the button below. The input field will tell you when two, four, and six seconds have passed.</p>
+//
+// <button onclick="timedText()">Display timed text</button>
+// <input type="text" id="txt">
+//
+// <script>
+// function timedText() {
+//   var x = document.getElementById("txt");
+//   setTimeout(function(){ x.value="2 seconds" }, 2000);
+//   setTimeout(function(){ x.value="4 seconds" }, 4000);
+//   setTimeout(function(){ x.value="6 seconds" }, 6000);
+// }
+// </script>
 
 
 
